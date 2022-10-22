@@ -8,9 +8,6 @@
   </head>
   <body>
     <button>Press Me</button>
-    <div>Get groceries</div>
-    <div>Wash car</div>
-    <div>Make dinner</div>
     <script>
       let todo1 = "Get groceries";
       let todo2 = "Wash car";
@@ -18,6 +15,14 @@
 
       let element = document.createElement("div");
       element.innerText = todo1;
+      document.body.appendChild(element);
+
+      element = document.createElement("div");
+      element.innerText = todo2;
+      document.body.appendChild(element);
+
+      element = document.createElement("div");
+      element.innerText = todo3;
       document.body.appendChild(element);
     </script>
   </body>
